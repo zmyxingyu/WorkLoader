@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hand_draw_toolbar_height"
+    android:background="@color/hand_draw_toolbar_bg"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/hand_draw_penstyle_chooser_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/hand_draw_penstyle_chooser"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hand_draw_penstyle_chooser_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hand_draw_pencolor_chooser_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/hand_draw_pencolor_chooser"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hand_draw_pencolor_chooser_btn" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/hand_draw_text_space_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/hand_draw_toolbar_btn_background" >
+
+        <ImageView
+            android:id="@+id/hand_draw_text_space"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hand_draw_text_space_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hand_draw_text_line_change_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/hand_draw_toolbar_btn_background" >
+
+        <ImageView
+            android:id="@+id/hand_draw_text_line_change"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hand_draw_text_line_change_btn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hand_draw_text_delete_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/hand_draw_toolbar_btn_background" >
+
+        <ImageView
+            android:id="@+id/hand_draw_text_delete"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hand_draw_text_delete_btn" />
+    </LinearLayout>
+
+</LinearLayout>

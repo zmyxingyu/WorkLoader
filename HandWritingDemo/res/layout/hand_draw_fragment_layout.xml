@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    
+    <com.zmy.handwritingdemo.view.DrawableEditView
+        android:id="@+id/hand_draw_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="320dp"
+        android:maxLines="20"
+        android:textSize="20dp"
+        android:textCursorDrawable="@drawable/hand_draw_edittext_cursor_drawable"
+        android:background="#00000000"
+        android:saveEnabled="false"/>
+    
+    <include
+        android:id="@+id/hand_draw_toolbar_layout"
+        layout="@layout/hand_draw_toolbar_layout" />
+    
+    <com.zmy.handwritingdemo.view.HandDrawView2
+        android:id="@+id/hand_draw_board"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_margin="6dp"
+        android:layout_above="@id/hand_draw_toolbar_layout"
+        android:background="@drawable/hand_draw_view_bg" />
+    
+    <com.zmy.handwritingdemo.view.HandDrawPenStyleChooserView
+        android:id="@+id/hand_draw_penstyle_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+    	android:background="#ffffff"
+        android:layout_above="@id/hand_draw_toolbar_layout"
+        android:visibility="gone" />
+    
+    <com.zmy.handwritingdemo.view.HandDrawPenColorChooserView
+        android:id="@+id/hand_draw_pencolor_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+    	android:background="#ffffff"
+        android:layout_above="@id/hand_draw_toolbar_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

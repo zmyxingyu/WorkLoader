@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hand_draw_toolbar_height"
+    android:background="@color/hand_draw_penstyle_chooser_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/penstyle_1"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="33dp"
+        android:background="@drawable/hand_draw_penstyle_check"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:src="@drawable/hand_draw_penstyle_uncheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/penstyle_2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:src="@drawable/hand_draw_penstyle_uncheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/penstyle_3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/hand_draw_penstyle_uncheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/penstyle_4"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:src="@drawable/hand_draw_penstyle_uncheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/penstyle_5"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="11dp"
+            android:layout_height="11dp"
+            android:src="@drawable/hand_draw_penstyle_uncheck" />
+    </LinearLayout>
+
+</LinearLayout>

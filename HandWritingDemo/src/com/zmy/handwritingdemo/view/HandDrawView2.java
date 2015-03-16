@@ -93,7 +93,7 @@ public class HandDrawView2 extends SurfaceView {
 		mPaint.setColor(color);
 	}
 
-	public void setDrawWidth(int width) {
+	public void setDrawWidth(float width) {
 		mPaint.setStrokeWidth(width);
 	}
 

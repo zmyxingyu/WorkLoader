@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="hand_draw_toolbar_bg">#eeeeef</color>
+    <color name="hand_draw_toolbar_btn_press">#e4e6e5</color>
+    <color name="hand_draw_penstyle_chooser_bg">#ffffff</color>
+    <color name="hand_draw_pen_color_1">#000000</color>
+    <color name="hand_draw_pen_color_2">#e92217</color>
+    <color name="hand_draw_pen_color_3">#ff9101</color>
+    <color name="hand_draw_pen_color_4">#ecc408</color>
+    <color name="hand_draw_pen_color_5">#02cf13</color>
+    <color name="hand_draw_pen_color_6">#0297ff</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

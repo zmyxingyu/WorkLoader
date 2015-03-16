@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp" >
+
+    <ImageView
+        android:id="@+id/hand_draw_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dip" />
+
+    <ImageView
+        android:id="@+id/hand_draw_image_delete"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_gravity="right|top"
+        android:background="@drawable/custom_list_selector"
+        android:src="@drawable/hand_draw_compose_delete" />
+
+</FrameLayout>

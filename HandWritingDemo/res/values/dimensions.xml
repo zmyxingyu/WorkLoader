@@ -1,0 +1,12 @@
+<resources>
+
+    <dimen name="hand_draw_toolbar_height">50.0dip</dimen>
+    <dimen name="hand_draw_iamge_size">40.0dip</dimen>
+    <dimen name="hand_draw_blank_width">12.0dip</dimen>
+    <dimen name="hand_draw_pen_sytle_1">0.6px</dimen>
+    <dimen name="hand_draw_pen_sytle_2">0.55px</dimen>
+    <dimen name="hand_draw_pen_sytle_3">0.5px</dimen>
+    <dimen name="hand_draw_pen_sytle_4">0.450px</dimen>
+    <dimen name="hand_draw_pen_sytle_5">0.4px</dimen>
+
+</resources>
