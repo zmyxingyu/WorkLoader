@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:HandDrawView="http://schemas.android.com/apk/res/com.zmy.handwritingdemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/showBitmap"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showBitmap" 
+        android:onClick="start"
+        android:text="Start"/>
+
+    <com.zmy.handwritingdemo.view.HandDrawView2
+        android:id="@+id/handDrawView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="#eeeeee" >
+    </com.zmy.handwritingdemo.view.HandDrawView2>
+
+</RelativeLayout>
